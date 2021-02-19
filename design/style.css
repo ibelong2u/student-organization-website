@@ -1,0 +1,54 @@
+
+td.linkbox A:link, A:visited { color: #333300; text-decoration:underline;}
+td.linkbox A:hover { background-color: #333300; color: #FFFFCC;}
+
+    
+/*open close
+.item-header a { font-size: small; }
+
+/*level one 
+.item-header {
+  font-weight: bold; border-bottom: 1px solid black;
+  font-size: x-large;
+}*/
+.item-body {
+  margin: 0px; font-size: small;
+  visibility: hidden; height: 0px;
+}
+
+/*
+h1,h2,p{margin: 0 10px}
+h1{font-size: 200%;color: #FFFFFF}
+h2{font-size: 150%;color: #99CC33} */
+
+
+
+label{color:Maroon}
+.ad-box {
+  background: #eee;
+  border: 1px solid black;
+  padding: 5px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 400px;
+}
+.ad-box-title {
+  background: #ccc;
+  padding: 5px;
+  font-weight: bold;
+  color: Maroon;
+  font-size: large;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+#popup {
+  position: absolute;
+  padding: 5px;
+  border: 1px solid black;
+  background: #eee;
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
